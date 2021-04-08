@@ -103,7 +103,7 @@
   font-weight: 300;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
-  background: -webkit-linear-gradient(rgb(111 146 179), rgb(111 146 179 / 48%));
+  background: -webkit-linear-gradient(#f3c027, rgb(111 146 179 / 48%));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
@@ -296,3 +296,17 @@ a:focus, a:hover {
 footer {
   padding: 5rem 0;
 }
+
+/* Full Width Image
+------------------------- */
+
+.bg-image-full {
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+/* Full Width Image End
+------------------------- */
